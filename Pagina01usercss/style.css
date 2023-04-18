@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 30px;
+}
+body{
+    background-image: url('Fondo.jpg');
+}
+h2{
+    text-align: center;
+    background-color: rgb(51, 129, 231);
+    color: white;
+    padding: 20px;
+}
+.form{
+    text-align: center;
+    width: 400px;
+    background-color: rgb(51, 129, 231);
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 10px;
+    
+}
+.form h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.Campos{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(51, 129, 231);
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    
+}
+::placeholder{color:rgba(255, 255, 255, 0.61);}
+.Select{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(51, 129, 231);
+    padding: 7px;
+    border-radius: 6px;
+    margin-bottom: 22px;
+    border: 2px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.61);
+}
+.form .boton{
+    width: 90%;
+    background-color: rgb(12, 59, 146);
+    border: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+
+}
+
+
