@@ -4,9 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UserNombre</title>
+    <link rel="stylesheet" type="text/css" href="https://ink.freetls.fastly.net/3.1.10/css/ink.css"> <!-- inks css file -->
+    <script type="text/javascript" src="https://ink.freetls.fastly.net/3.1.10/js/ink-all.js"></script> <!-- inks js bundle --> 
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
+    <div class="fondo">
+        <nav class="ink-navigation">
+            <ul class="pagination black">
+                <li class="disabled"><a href="#">Previous</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </nav>
+    <div class="ink-flex align-center padding condensed-400 slab-700">
+              <h2>Formulario Registro de Usuario</h2>
+    </div>
+        <section class=" ink-form ink-grid">
+            <div class="column-group">
+                <div class="all-100">
+                    <div class="column-group">
+                        <div class="ink-flex align-center">  
+                            <form class="ink-form" action="#" method="post">
+                            <fieldset class="align-center ">
+                            <div class="control-group">
+                                <div class="control">
+                                <input type="text" class="align-center control" name="id" pattern="[0-9]+"
+                                    placeholder="Identificación" size="15" maxlength="10"/>
+                                </div>
+                            </div>
+                            <div class="dropdown control-group" >
+                                <div class="control">
+                                <select name="select" type="button" value="país" class="align-center control">
+                                    <option value="Colombia">Seleccione su país</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Ecuador">Ecuador</option>
+                                    <option value="Estados Unidos">Estados Unidos</option>
+                                    <option value="Perú">Perú</option>
+                                    <option value="Alemania">Alemania</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Japón">Japón</option>
+                                    <option value="Francia">Francia</option>
+                                </select>
+                            </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="control">
+                                <input type="text" class="align-center" name="name" value="" required=""
+                                    placeholder="Ingrese su nombre" size="20" maxlength="35" />
+                                </div>
+                                </div>
+                            <div class="control-group">
+                                <div class="control">
+                                <input type="text" class="align-center" name="surname" value="" required=""
+                                    placeholder="Ingrese su apellido" size="20" maxlength="35" />
+                                </div>
+                                </div>
+                            <div class="control-group">
+                                <div class="control">
+                                <input type="text" class="align-center" name="adress" value="" required=""
+                                    placeholder="Ingrese su dirección" size="30" maxlength="35" />
+                            </div>
+                                </div>
+                            <div class="control-group">
+                                <div class="control">
+                                <input type="text" class="align-center" name="nd" value="" required="" size="15"
+                                    placeholder="Usuario" maxlength="20" />
+                                </div>
+                                </div>
+                            <div class="control-group">
+                                <div class="control">
+                                
+                                <input type="password" class="align-center" name="pw" value="" required="" placeholder="Contraseña"
+                                    size="15" maxlength="30" />
+                                </div>
+                                </div>
+                            <div class="control-group">
+                                <div class="control">
+                                <input type="email" class="align-center" name="email" value="" required=""
+                                    placeholder="Ingrese su email" size="20" maxlength="" />
+                                </div>
+                                </div>
+                            <div class="control-group">
+                                <div class="control">
+                                <input type="text" class="align-center" name="nd" value="" required="" size="15"
+                                    placeholder="Teléfono" maxlength="10" pattern="[0-9]+" />
+                            </div>
+                                </div>
+                                <div class="control-group">
+                            <div class="control">
+                                <button type="submit" class="ink-button orange ">Registrarse</button>
+                                <button type="reset" class="ink-button red">Limpiar</button>
+                            </div>
+                            </div>
+                           </fieldset>
+            
+            
+                        </form> 
+                    </div>
+                        
+                    </div>   
+                </div>
+            </div>
+        </section>
+    </div>
     
 </body>
 </html>
